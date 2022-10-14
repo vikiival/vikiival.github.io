@@ -118,6 +118,11 @@ header {
     align-items: center;
 }
 
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .headerContent {
     margin: 0 auto;
     width: 960px;
