@@ -235,6 +235,7 @@ img {
 .left p {
   margin: 0;
   max-width: 60ch;
+  margin-bottom: 1rem;
 }
 
 .right {
