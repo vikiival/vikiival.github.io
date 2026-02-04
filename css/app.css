@@ -206,9 +206,12 @@ div.margin-bottom-2 {
 }
 
 img {
-  clip-path: circle();
+  clip-path: none;
   max-width: 18rem;
   max-height: 18rem;
+  border-radius: 0;
+  border: 2px solid var(--primary-text-color);
+  object-fit: cover;
   display: block;
   margin: 0;
 }
@@ -233,6 +236,7 @@ img {
   text-align: center;
   /* margin: 0 auto; */
   display: inline-flex;
+  margin-top: 1.5rem;
 }
 
 .social-media-icon:hover {
