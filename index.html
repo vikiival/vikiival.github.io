@@ -49,7 +49,7 @@
         <h2 id="subtitle">experimental crypto wizard ✨</h2>
         <a href="#about">
           <!-- TODO -->
-          <p class="fas fa-arrow-down fa-3x" id="moveDown"></p>
+          <p class="fas fa-arrow-down fa-3x" id="moveDown" aria-hidden="true"></p>
         </a>
       </div>
     </header>
@@ -86,17 +86,25 @@
           <p>If you are working on something interesting, I'd like to hear about it.</p>
         </div>
         <div class="right profile-block">
-          <img src="img/photo.webp" alt="Photo of Viki Val" />
+          <img
+            src="img/photo.webp"
+            alt="Photo of Viki Val"
+            
+            loading="lazy"
+          />
           <div class="social-media-icons">
-            <a href="https://www.linkedin.com/in/vikival" target="_blank"
-              ><i class="fab fa-linkedin social-media-icon"></i
+            <a
+              href="https://www.linkedin.com/in/vikival"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin social-media-icon" aria-hidden="true"></i
             ></a>
             <!-- <a href="mailto:vikiival@kodadot.xyz" target="_blank"><i class="fas fa-at social-media-icon"></i></a> -->
-            <a href="https://x.com/vikiival" target="_blank"
-              ><i class="fab fa-twitter social-media-icon"></i
+            <a href="https://x.com/vikiival" target="_blank" aria-label="X"
+              ><i class="fab fa-twitter social-media-icon" aria-hidden="true"></i
             ></a>
-            <a href="https://github.com/vikiival" target="_blank"
-              ><i class="fab fa-github social-media-icon"></i
+            <a href="https://github.com/vikiival" target="_blank" aria-label="GitHub"
+              ><i class="fab fa-github social-media-icon" aria-hidden="true"></i
             ></a>
             <!-- <a href="./assets/VikiVal_CV.pdf" target="__blank"><i class="fas fa-file social-media-icon"></i></a> -->
           </div>
@@ -392,11 +400,14 @@
         </a>
       </div>
       <div id="cc">
-        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-          <i class="fab fa-creative-commons footer-icon"></i>
-          <i class="fab fa-creative-commons-by footer-icon"></i>
-          <i class="fab fa-creative-commons-nc footer-icon"></i>
-          <i class="fab fa-creative-commons-nd footer-icon"></i>
+        <a
+          href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+          aria-label="Creative Commons License"
+        >
+          <i class="fab fa-creative-commons footer-icon" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-by footer-icon" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-nc footer-icon" aria-hidden="true"></i>
+          <i class="fab fa-creative-commons-nd footer-icon" aria-hidden="true"></i>
         </a>
       </div>
     </footer>
