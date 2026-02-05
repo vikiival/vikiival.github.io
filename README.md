@@ -1,8 +1,9 @@
-# Viki Val Website
+# Viki Val
 
+Minimal personal site for Viki Val: open-source builder, crypto researcher, and founder.  
+This repo contains a single-page portfolio with work experience, research publications, grants, and contact links.
 
 ## Credits
+[Original source](https://github.com/ignissak/ignissak.github.io/tree/main) comes from [Jakub Bordáš](https://github.com/ignissak).
 
-The whole page is a work of [Jakub Bordáš](https://github.com/ignissak).
-I really love the design and the code is very clean and easy to understand. I just changed the content and changed the colors.
-[Original source](https://github.com/ignissak/ignissak.github.io)
+I really loved initial the design and the code is very clean and easy to understand.
