@@ -198,7 +198,7 @@ div.section-title {
   justify-content: left;
   align-items: center;
   margin: 5rem auto 3rem auto;
-  border-bottom: 2px solid var(--primary-text-color);
+  /* border-bottom: 2px solid var(--primary-text-color); */
   padding-bottom: 0.75rem;
 }
 
