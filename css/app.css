@@ -213,7 +213,7 @@ h2.section-title {
 }
 
 main {
-  margin: 0 32rem;
+  margin: 0 34rem;
 }
 
 .content-margin {
@@ -301,7 +301,7 @@ img {
 
 @media (max-width: 1700px) {
   main {
-    margin: 0 16rem;
+    margin: 0 12rem;
   }
 }
 
